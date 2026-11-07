@@ -8,6 +8,20 @@ The database provides a structured way to store geographical information, househ
 
 The project demonstrates the application of relational database design, normalization principles, primary and foreign keys, integrity constraints, indexing, SQL views, database security and administration practices.
 
+### Project at a Glance
+
+| Item | Details |
+|---|---|
+| Database | PostgreSQL 18.6 |
+| Database interface | pgAdmin 4 |
+| Tables | 6 |
+| Foreign-key relationships | 5 |
+| Additional indexes | 3 |
+| Database views | 1 |
+| Sample records | 108 fictional records |
+| SQL scripts | 4 |
+| Technical documents | 3 |
+
 ## 2. Project Objectives
 
 The database is designed to:
@@ -278,6 +292,43 @@ Maintenance activities should be performed according to the database environment
 The following diagram illustrates the database tables, their attributes and the relationships implemented through foreign keys.
 
 ![Survey Database Entity Relationship Diagram](diagrams/er_diagram.png)
+
+## Project Screenshots
+
+The following screenshots provide visual evidence of the database structure, relationships, validation checks, analysis queries and restoration process.
+
+<details>
+<summary><strong>View database screenshots</strong></summary>
+
+### Database structure and relationships
+
+<img src="screenshots/database_tables.png" width="700" alt="Database tables in pgAdmin">
+
+<img src="screenshots/database_relationships.png" width="700" alt="Database entity relationship diagram">
+
+<img src="screenshots/foreign_key_constraints.png" width="700" alt="Foreign key constraints">
+
+### Database view and validation
+
+<img src="screenshots/summary_view.png" width="700" alt="Person survey summary view">
+
+<img src="screenshots/data_quality_checks.png" width="700" alt="Data quality verification results">
+
+### Survey analysis
+
+<img src="screenshots/survey_demographic_analysis.png" width="700" alt="Education distribution analysis">
+
+<img src="screenshots/survey_employment_analysis.png" width="700" alt="Employment analysis">
+
+<img src="screenshots/survey_age_group_analysis.png" width="700" alt="Age group distribution">
+
+<img src="screenshots/survey_satisfaction_analysis.png" width="700" alt="Survey satisfaction analysis">
+
+### Restoration verification
+
+<img src="screenshots/database_restoration.png" width="700" alt="Database restoration verification">
+
+</details>
 
 ## 12. Repository Structure
 
